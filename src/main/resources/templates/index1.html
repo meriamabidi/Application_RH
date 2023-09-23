@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Alert and Open Window</title>
+</head>
+<body>
+<button id="showAlertAndOpenBtn">Show Alert and Open Window</button>
+
+<script>
+    document.getElementById("showAlertAndOpenBtn").addEventListener("click", function() {
+        openNewWindow();
+    });
+
+    function openNewWindow() {
+        window.open("users-profile.html", "_blank", "width=400,height=300");
+    }
+</script>
+</body>
+</html>
